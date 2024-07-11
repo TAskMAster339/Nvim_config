@@ -83,4 +83,6 @@ vim.keymap.set('n', '<Tab>', ':BufferLineCycleNext<CR>')
 vim.keymap.set('n', '<S-Tab>', ':BufferLineCyclePrev<CR>')
 vim.keymap.set('n', '<C-b>', ':BufferLineCloseOthers<CR>')
 
+-- illuminate
+vim.keymap.set('n', '<leader>t', ':IlluminateToggle<CR>')
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')

@@ -4,7 +4,10 @@ function SetColor()
     ---vim.cmd [[ colorscheme gruvbox ]]
 
     ---Option 2
-    vim.cmd [[colorscheme tokyonight-storm]]
+    -- vim.cmd [[colorscheme tokyonight-storm]]
+
+    -- Option 3
+    vim.cmd [[colorscheme kanagawa-dragon]]
 end
 
 SetColor()

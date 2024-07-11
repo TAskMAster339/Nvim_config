@@ -74,10 +74,20 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["Comment.nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    url = "https://github.com/numToStr/Comment.nvim"
+  },
   LuaSnip = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
+  },
+  ["better-escape.nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/better-escape.nvim",
+    url = "https://github.com/max397574/better-escape.nvim"
   },
   ["bufferline.nvim"] = {
     loaded = true,
@@ -94,6 +104,11 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -108,6 +123,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -149,10 +169,20 @@ _G.packer_plugins = {
     path = "/home/user/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["todo-comments.nvim"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/todo-comments.nvim",
+    url = "https://github.com/folke/todo-comments.nvim"
+  },
   ["tokyonight.nvim"] = {
     loaded = true,
     path = "/home/user/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["vim-illuminate"] = {
+    loaded = true,
+    path = "/home/user/.local/share/nvim/site/pack/packer/start/vim-illuminate",
+    url = "https://github.com/RRethy/vim-illuminate"
   }
 }
 

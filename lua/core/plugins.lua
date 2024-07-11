@@ -10,12 +10,12 @@ local ensure_packer = function()
 end
 
 local packer_bootstrap = ensure_packer()
-
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   --- Colorsheme
   use 'ellisonleao/gruvbox.nvim'
   use 'folke/tokyonight.nvim'
+  use "rebelot/kanagawa.nvim"
   --- Working Tree
   use 'nvim-tree/nvim-tree.lua'
   use 'nvim-tree/nvim-web-devicons'
@@ -33,12 +33,22 @@ return require('packer').startup(function(use)
   use 'L3MON4D3/LuaSnip'
   --- bufferline 
   use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
+  ---todo-comments
+  use {'folke/todo-comments.nvim', tag = "*", requires = 'nvim-lua/plenary.nvim'}
+  ---telescope
   use {
     'nvim-telescope/telescope.nvim',
     tag = '0.1.8',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
-  -- My plugins here
+  ---auto pairs
+  use "windwp/nvim-autopairs"
+  -- comments
+  use 'numToStr/Comment.nvim'
+  -- highliting
+  use 'RRethy/vim-illuminate'
+  -- better escape
+  use "max397574/better-escape.nvim"
   -- use 'foo1/bar1.nvim'
   -- use 'foo2/bar2.nvim'
 
