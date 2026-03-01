@@ -42,7 +42,7 @@ sudo apt install -y python3 python3-pip
 mv ~/.config/nvim ~/.config/nvim.bak 2>/dev/null || true
 
 # Клонировать этот репозиторий
-git clone https://github.com/your-username/Nvim_config.git ~/.config/nvim
+git clone https://github.com/TAskMAster339/Nvim_config.git ~/.config/nvim
 ```
 
 > Замени `your-username` на своё имя пользователя на GitHub.
