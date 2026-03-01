@@ -9,7 +9,6 @@ vim.opt.wrap = false
 vim.wo.linebreak = true
 vim.opt.virtualedit = 'block'
 vim.opt.undofile = true
-vim.opt.shell = "/bin/fish"
 vim.opt.swapfile = false
 vim.opt.encoding = "utf-8"
 vim.opt.cursorline = true
